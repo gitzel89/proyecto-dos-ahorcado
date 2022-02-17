@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div style="text-align:center; margin: 50px 0px;">
+      <img class="letrero" src="klipartz.com.png">
+
+      <h1 class="titulo">AHORCADO</h1>
+      <h2 class="titulo2">Recuerde solo puede ingresar  <br> letras mayúsculas <br> sin acentos ni caracteres especiales <br> queda prohibido el uso de números</h2>
+
+      <img class="recordatorio" src="pngwing.com.png">
+
+
+      <button class="btn" onclick=" iniciarJuego(); ahorcado()"   id="iniciar-juego">INICIAR</button>
+    </div>
+     <input class="text-input" type="text" onkeypress="return validar(event)" id="input-nueva-palabra" placeholder="INGRESE UNA NUEVA PALABRA">
+    <div style="text-align:center">   
+      <button class="btnn" onclick=" ingresarPalabras()" id="nueva-palabra">AGREGAR PALABRA</button> 
+
+    </div>
+     <input class="text-input2" maxlength="1" type="text" onkeypress="return validar(event)" id="input-letra" placeholder="ESCRIBA UNA LETRA">
+    
+     <div style= "text-align: center;">  
+      <button class="Jf" onclick="ahorcado()" id="nueva-palabra">AGREGAR LETRA</button> 
+    </div>
+     <p id ="output">
+   
+     </p>
+     <p id="error">
+
+     </p>
+
+     <div id ="win">
+       <h1>G A N A S T E!!</h1>
+     </div>
+     <div id ="lose">
+      <h1>P E R D I S T E!! </h1>
+    </div>
+     
+
+  <div id ="horca">
+    
+  </div>
+
+
+
+  <div style="text-align:center;">
+    <canvas id="ahorcado" height="800px" width="1200px"></canvas>
+  </div>
+   
+    <script type="text/javascript" src="ahorcado.js"></script>
+
+
+  </body>
+    <img class="fantasma" src="fantasma.gif">
+
+</html>

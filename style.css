@@ -1,0 +1,197 @@
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+  position: relative;
+  top: -295px; /* ajustar los valores para mover la imagen */
+  left: -5px;
+  font-size: 400%;
+  text-shadow: #CE0202 2px 2px 3px;
+
+
+}
+
+.titulo2{
+
+   position: relative;
+  top: -26px; /* ajustar los valores para mover la imagen */
+  left: -480px;
+  font-size: 130%;
+  color: white;
+  z-index: 1;
+
+}
+
+.recordatorio{
+
+  width: 600px;
+  height: 500px;
+  position: relative;
+  top: -300px;
+  left: -400px;
+
+
+}
+
+.fantasma{
+
+   position: absolute;
+    top: 300px; /* ajustar los valores para mover la imagen */
+    left: 70%;
+  
+
+}
+
+.letrero{
+  width: 600px;
+  height: 300px;
+  position: relative;
+    top: -110px; /* ajustar los valores para mover la imagen */
+    left: -5px;
+}
+
+.btn{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 100px;
+    height: 50px;
+    background-color: #000000;
+    color:red;
+    position: relative;
+    top: -860px; /* ajustar los valores para mover la imagen */
+    left: -310px;
+}
+
+.btn:hover {
+    background-color: #CE0202; /* Green */
+    color: white;
+}
+
+
+.btnn{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 100px;
+    height: 50px;
+    background-color: #000000;
+    color:red;
+    position: relative;
+    top: -890px; /* ajustar los valores para mover la imagen */
+    left: -10px;
+}
+
+.btnn:hover {
+    background-color: #CE0202; /* Green */
+    color: white;
+}
+
+
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  color: rgb(255, 0, 0 );
+  position: relative;
+  top: -900px; /* ajustar los valores para mover la imagen */
+}
+#horca
+{
+    height: 210px;
+    width: 208px;
+    background-image: url('./ahorcad.png');
+    position: absolute; 
+    left: 200px;
+    top: 900px;
+  
+}
+
+#output
+{
+  position: relative; 
+     top: -310px; /* ajustar los valores para mover la imagen */
+    left: 580px;
+    font-size: 400%;
+
+
+}
+
+
+
+body {
+  background-color: #222d2d;
+ 
+ background: url(wallpaperbetter.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+.horca
+{
+  position: absolute;
+  /*margin: auto;*/
+  top: 140%;
+  left: 70%;
+}
+.Jf{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    color:red;
+    position: relative;
+    top: -90px; /* ajustar los valores para mover la imagen */
+    left: -120px;
+}
+
+.Jf:hover {
+    background-color: #CE0202; /* Green */
+    color: white;
+}
+
+
+.text-input2
+{
+  position: relative;
+  top: -50px;
+  left: 780px;
+  background-color: #000000;
+  color: rgb(255, 0, 0 );
+}
+
+#win
+{
+  color: green;
+  display: none;
+  height: 100vh;
+  display:  center;
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  font-size: 300%;
+  text-shadow: #62E600 2px 2px 3px;
+}
+
+#lose
+{
+  color: red;
+  display: none;
+  height: 100vh;
+  display:  center;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  font-size: 300%;
+  text-shadow: #000000 2px 2px 3px;
+}
