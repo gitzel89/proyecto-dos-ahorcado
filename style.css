@@ -179,7 +179,7 @@ background-size: cover;
   position: absolute;
   top: 115%;
   left: 50%;
-  font-size: 300%;
+  font-size: 100%;
   text-shadow: #62E600 2px 2px 3px;
 }
 
@@ -192,6 +192,6 @@ background-size: cover;
   position: absolute;
   top: 120%;
   left: 50%;
-  font-size: 300%;
+  font-size: 100%;
   text-shadow: #000000 2px 2px 3px;
 }
